@@ -1,27 +1,30 @@
 # 💼 Sistem Manajemen Gaji Karyawan
 
-Sistem Manajemen Gaji ini dibangun menggunakan **PHP + MySQL** dan dirancang untuk membantu pengelolaan data karyawan, jabatan, rating, lembur, dan perhitungan gaji secara otomatis.
+Sistem Manajemen Gaji ini dibangun menggunakan **PHP Native + MySQL** yang ditujukan untuk membantu proses pencatatan data karyawan, jabatan, rating, lembur, dan perhitungan gaji secara otomatis di lingkungan perusahaan atau instansi.
 
-## 📂 Fitur Utama
+## 📌 Fitur Aplikasi
 
-- CRUD Karyawan
-- CRUD Jabatan (dengan gaji pokok dan tunjangan)
-- CRUD Rating (bonus presentase)
-- CRUD Tarif Lembur (berdasarkan jabatan)
-- Perhitungan Gaji Otomatis (menghitung bonus, tunjangan, dan lembur)
-- Upload & Tampil Foto Karyawan
-- Dashboard Dinamis (jumlah data, karyawan terbaru)
-- Export-ready design (tampilan rapi & siap untuk dikembangkan lebih lanjut)
+- ✅ Manajemen Data Karyawan (CRUD + Foto)
+- ✅ Manajemen Jabatan (Gaji Pokok & Tunjangan)
+- ✅ Manajemen Rating (Bonus)
+- ✅ Pengelolaan Tarif Lembur per Jabatan
+- ✅ Perhitungan Gaji Otomatis (gaji pokok + bonus + lembur + tunjangan)
+- ✅ Dashboard Jumlah Data + Karyawan Terbaru
+- ✅ Upload Foto & Detail Karyawan
 
-## 🛠️ Teknologi
+## 💻 Teknologi yang Digunakan
 
-- PHP (Native)
-- MySQL
-- Bootstrap 5
-- HTML, CSS
+- PHP Native
+- MySQL Database
+- Bootstrap 5 (Responsive UI)
+- HTML + CSS + JS
+- Git & GitHub
 
-## ⚙️ Instalasi
+## 🧾 Struktur Menu
 
-1. Clone repository ini:
-   ```bash
-   git clone https://github.com/username/sistem-manajemen-gaji.git
+- Dashboard (Jumlah data, marquee, & karyawan terbaru)
+- Daftar Karyawan
+- Daftar Jabatan
+- Daftar Rating
+- Tarif Lembur
+- Gaji Karyawan
